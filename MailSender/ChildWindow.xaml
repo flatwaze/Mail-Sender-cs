@@ -1,0 +1,13 @@
+﻿<Window x:Class="MailSender.ChildWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailSender"
+        mc:Ignorable="d"
+        Title="ChildWindow" Height="450" Width="450" MaxHeight="450" MaxWidth="450" MinHeight="450" MinWidth="450">
+    <Grid>
+        <Label x:Name ="lbl" Content="Сообщение успешно отправлено!" Margin="108,64,61,253"/>
+        <Button x:Name ="okBtn" Content="Ок" Click="OkBtn_Click" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
